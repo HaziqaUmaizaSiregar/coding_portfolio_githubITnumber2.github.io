@@ -1,0 +1,172 @@
+html, body {
+    height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 150%;
+    background: linear-gradient(to bottom,#1c4dff,#04fcf4);
+}
+
+.quiz-title {
+    text-align: center;
+    color:white;
+    background-color:darkblue;
+    font-size: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    animation: drop-down-anim 2s ease-in-out forwards ;
+}
+
+@keyframes drop-down-anim {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.quiz-container {
+    max-width: 800px;
+    height: 375px;
+    background-color:rgb(75, 64, 224) ;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.progress-bar-bg {
+    background-color: rgb(124, 138, 248);
+    width: 90%;
+    height: 12px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.progress-bar-fill{
+    background-color: rgba(0, 255, 64, 0.82);
+    width: 50%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.question{
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.drop-down {
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    font-weight: 700;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.start-btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:turquoise ;
+    color: black;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.start-btn:hover{
+    width: 120px;
+    height: 80px;
+}
+
+.timer {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 60%;
+    padding: 60px 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: lightskyblue;
+}
+
+.option-box {
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.option-btn {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.option-btn:hover {
+    background-color:lightgreen;
+    color: darkgreen
+}
+
+.score-label{
+    color: rgb(97, 206, 245);
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.feedback-label{
+    color: rgb(97, 206, 245);;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.bgm-options{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.music-btn {
+   margin: auto;
+   display: block;
+   margin-top: 30px;
+   height: 50px;
+   width: 20%;
+   font-size: 14px;
+   font-weight: 800;
+   background-color :crimson;
+   color: aliceblue;
+   border-radius: 10px;
+}

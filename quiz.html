@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title> An okay quiz </title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+    <div class="quiz-title">
+        logic quiz 
+    </div>
+
+    <div class="quiz-container">
+        <!-- progress bar -->
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+        
+        <!-- Question Label -->
+        <div class="question" id="question">
+            🏁Qs will show here,click start to begin🏁
+        </div>
+        <!-- Drop-down menu -->
+        <select class="drop-down" id="drop-down">
+            <option value="1">easy⭐</option>
+            <option value="2">pro🌟</option>
+            <option value="3">hard🌠</option>
+        </select>
+        <!-- Option buttons --> 
+        <div class="option-box" id="option-box">
+        </div>
+        <!-- Score/Feedback label -->
+        <div class="score-label" id="score-label">
+            eq: 0 hehe noob
+        </div>
+
+        <div class="feedback-label" id="feedback-label">
+            N.A,be patient bro 
+        </div>
+
+        <!-- Start button -->
+         <button class="start-btn" id="start-btn">bro just start</button>
+    </div>
+
+    <div class="timer">
+        <span id="timer-text"> 15</span>
+    </div>
+
+        <!--bgm options-->
+        <select class="bgm-options" id="bgm-options">
+            <option value="">--Choose a soundtrack--</option>
+            <option value="GoldenKDH.mp3"> Golden(KDH) </option>
+            <option value="GrowAGarden.mp3"> Grow a Garden </option>
+            <option value="SubwooferLullaby.mp3"> Subwoofer Lullaby </option>
+            <option value="WiiTheme.mp3"> Wii Theme </option>
+        </select>
+
+        <button class="music-btn" id="music-btn">Music Off 🔇</button>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
